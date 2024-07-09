@@ -1,0 +1,12 @@
+# go commands
+
+```bash
+# iniciar um projeto go
+go mod init journey
+```
+
+```bash
+# instalar os pacotes que faltam
+go mod tidy
+```
+  
