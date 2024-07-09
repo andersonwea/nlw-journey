@@ -12,4 +12,13 @@ go mod tidy
 # baixar a ultima versão dos pacotes
 go get -u ./ ...
 ```
+
+# database commands
+
+## migrations
+
+```bash
+# using github.com/jackc/tern package
+tern init ./internal/pgstore/migrations
+```
   
