@@ -20,5 +20,11 @@ go get -u ./ ...
 ```bash
 # using github.com/jackc/tern package
 tern init ./internal/pgstore/migrations
+
+# criar uma migration
+tern new --migrations ./internal/pgstore/migrations create_trips_table
+
+# executar as migrations
+tern migrate --migrations ./internal/pgstore/migrations --config ./internal/pgstore/migrations/tern.conf
 ```
   
