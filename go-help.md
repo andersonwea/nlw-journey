@@ -11,7 +11,15 @@ go mod tidy
 
 # baixar a ultima versão dos pacotes
 go get -u ./ ...
+
+# rodar o arquivo gen
+go generate ./ ....
 ```
+
+## gerar interfaces
+VsCode -> ctrl + shift + P -> Go: Generate Interface Stubs
+colocar o "Receiver" + o package e o nome da interface que quer implementar
+ex: api API spec.ServerInterface 
 
 # database commands
 
