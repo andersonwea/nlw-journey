@@ -27,4 +27,11 @@ tern new --migrations ./internal/pgstore/migrations create_trips_table
 # executar as migrations
 tern migrate --migrations ./internal/pgstore/migrations --config ./internal/pgstore/migrations/tern.conf
 ```
+
+## sqlc
+
+```bash
+# criar as queries através do sql
+sqlc generate -f ./internal/pgstore/sqlc.yaml
+```
   
